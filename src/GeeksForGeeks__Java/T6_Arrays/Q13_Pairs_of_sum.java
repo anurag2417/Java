@@ -1,0 +1,46 @@
+package GeeksForGeeks__Java.T6_Arrays;
+
+import java.util.*;
+
+public class Q13_Pairs_of_sum {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the Size of the Array : ");
+        int N = sc.nextInt();
+
+        int[] arr = new int[N];
+        System.out.println();
+
+        System.out.println("Enter the Elements of the Array : ");
+        for (int i = 0; i <= arr.length - 1 ; i++) {
+            System.out.print("Element " + (i + 1) + " = ");
+            arr[i] = sc.nextInt();
+        }
+
+        System.out.println();
+
+        System.out.print("Elements of the Array : ");
+        for (int i = 0; i <= arr.length - 1; i++){
+            System.out.print(arr[i] + "  ");
+        }
+
+        System.out.println();
+        System.out.println();
+
+        System.out.print("Enter the Target Sum : ");
+        int T = sc.nextInt();
+
+        int count = 0;
+        for (int i = 0; i <= arr.length - 1; i++) {
+
+            for (int j = i+1; j <= arr.length - 1; j++) {
+                if (arr[i] + arr[j] == T) {
+                    count++;
+                }
+            }
+        }
+
+        System.out.println("No of Pairs = " + count);
+    }
+}
