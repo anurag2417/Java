@@ -12,5 +12,7 @@ public class Q6_Final_and_Static {
         Cricketer c1 = new Cricketer();
         // c1.country = "England";
         System.out.println(c1.country);
+        c1.runs=56;
+        System.out.println(c1.runs);
     }
 }
