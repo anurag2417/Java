@@ -27,7 +27,7 @@ public class Q19_Wave_Array {
 
         System.out.println();
 
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < N - 1; i = i + 2) {
             int temp = arr[i];
             arr[i] = arr[i+1];
             arr[i+1] = temp;
