@@ -1,6 +1,6 @@
 package GeeksForGeeks__Java.T6_Arrays;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Q17_Rotate_Array {
     public static void main(String[] args) {
