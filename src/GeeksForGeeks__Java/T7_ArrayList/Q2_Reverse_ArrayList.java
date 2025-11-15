@@ -28,6 +28,8 @@ public class Q2_Reverse_ArrayList {
             j--;
         }
 
+        //Collections.reverse(arr);
+
         System.out.println(arr);
     }
 }
