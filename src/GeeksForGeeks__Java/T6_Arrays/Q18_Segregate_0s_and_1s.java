@@ -29,6 +29,24 @@ public class Q18_Segregate_0s_and_1s {
 
         System.out.println();
 
+        int numOfZero = 0;
+        for (int i = 0; i <= N - 1; i++){
+            if (arr[i] == 0) {
+                numOfZero++;
+            }
+        }
 
+        for (int i = 0; i <= numOfZero; i++) {
+            arr[i] = 0;
+        }
+
+        for (int i = numOfZero; i <= N - 1; i++){
+            arr[i] = 1;
+        }
+
+        System.out.print("Elements of the Array after Segregation : ");
+        for (int i = 0; i <= N - 1; i++) {
+            System.out.print(arr[i] + " ");
+        }
     }
 }
