@@ -1,4 +1,4 @@
-package GeeksForGeeks__Java.T7_OOP;
+package GeeksForGeeks__Java.T8_OOP;
 
 public class Q5_Marks {
     public static class Student_Data{

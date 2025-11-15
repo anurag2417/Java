@@ -1,4 +1,4 @@
-package GeeksForGeeks__Java.T7_OOP;
+package GeeksForGeeks__Java.T8_OOP;
 
 class Cricketer{
     final String country = "India";
